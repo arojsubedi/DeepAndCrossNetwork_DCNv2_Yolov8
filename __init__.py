@@ -51,6 +51,7 @@ from .conv import (
     LightConv,
     RepConv,
     SpatialAttention,
+    DCNv2
 )
 from .head import Classify, Detect, Pose, RTDETRDecoder, Segment
 from .transformer import (
@@ -112,5 +113,6 @@ __all__ = (
     "DeformableTransformerDecoderLayer",
     "MSDeformAttn",
     "MLP",
+    "DCNv2"
     "C2f_DCNv2",
 )
