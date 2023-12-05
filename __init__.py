@@ -35,7 +35,7 @@ from .block import (
     HGStem,
     Proto,
     RepC3,
-    C2f_DCN,
+    C2f_DCNv2,
 )
 from .conv import (
     CBAM,
@@ -112,5 +112,5 @@ __all__ = (
     "DeformableTransformerDecoderLayer",
     "MSDeformAttn",
     "MLP",
-    "C2f_DCN",
+    "C2f_DCNv2",
 )
