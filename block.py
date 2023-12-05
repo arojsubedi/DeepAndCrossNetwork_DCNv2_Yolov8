@@ -26,6 +26,7 @@ __all__ = (
     "BottleneckCSP",
     "Proto",
     "RepC3",
+    "C2f_DCNv2"
 )
 
 
